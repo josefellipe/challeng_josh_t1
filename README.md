@@ -1,6 +1,6 @@
-First challenge
+## First challenge
 
-Part 1: Recursive Dictionary Cleanup
+# Part 1: Recursive Dictionary Cleanup
 
 Task Description
 
@@ -44,20 +44,20 @@ Expected Output:
     }
 }
 
-Deliverables
+# Deliverables
 
     •    A Python script (clean_dict.py) that implements this function.
     •    Unit tests to validate the implementation.
 
 
-Solution:
+## Solution:
 
 I created a simple function that recursively checks the type of the data and whether it is empty. If the data is empty, it is not saved.
 
 To run the tests, follow these steps:
 
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-pytest tests -vv
+    •    python3 -m venv venv
+    •    source venv/bin/activate
+    •    pip install -r requirements.txt
+    •    pytest tests -vv
 
